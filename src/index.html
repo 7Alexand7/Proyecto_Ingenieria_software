@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<!--         |||||||||||||||  ARTICLES DE INCIO DE SESION  |||||||||||||||              -->
+<!--         |||||||||||||||  ARTICLES DE INICIO DE SESION  |||||||||||||||              -->
 
   <article class="login_screen">
     <div class="login_box">
@@ -67,8 +67,8 @@
   <!--         |||||||||||||||  ARTICLES GESTION DE CURSOS |||||||||||||||              -->
 
   
-  <arrticle class="gestion_cursos_user_teacher">
-    <header class="header_gestion">
+  <article class="manage_course_user_teacher">
+    <header class="header_manage_user_teacher">
         <div class="logo">LOGO</div>
         <nav class="nav_gestion">
             <ul>
@@ -88,12 +88,12 @@
         </ul>
     </section>
 
-    <footer class="footer_gestion">
+    <footer class="footer_manage">
         <p>&copy; 2025 Mi Plataforma Educativa</p>
     </footer>
-  </arrticle>
+  </article>
 
-  <article class="gestion_cursos_user_student">
+  <article class="manage_course_user_student">
     <header class="header_gestion">
         <div class="logo">LOGO</div>
         <nav class="nav_gestion">
@@ -119,8 +119,8 @@
     </footer>
   </article>
 
-  <article class="curso">
-    <header class="header_curso">
+  <article class="course">
+    <header class="header_course">
         <div class="logo">LOGO</div>
         <nav class="nav_curso">
             <ul>
@@ -140,10 +140,35 @@
       </ul>
     </section>
 
-    <footer class="footer_curso">
+    <footer class="footer_course">
         <p>&copy; 2025 Mi Plataforma Educativa</p>
     </footer>
   </article>
+
+  <!--         |||||||||||||||  ARTICLES Mensajes |||||||||||||||              -->
+
+  <dialog class="make_course">
+    <form>
+
+    </form>
+    <div class="message_box">
+        <p>Este es un mensaje de ejemplo.</p>
+        <button id="close_message">Cerrar</button>
+    </div>
+  </dialog>
+
+  <dialog class="dialog_confirm">
+    <div class="login_field">
+              <label for="course_name">Nombre del curso:</label>
+              <input type="text" id="course_name" name="course_name" required>
+          </div>
+    <div class="confirm_box">
+        <p> Quieres iniciar con 15 unidades temáticas</p>
+        <input type="radio" id="opcion1" name="grupo_opciones" value="a">
+        <button id="confirm_yes">Crear</button>
+        <button id="confirm_no">Volver</button>
+    </div>
+  </dialog>
 
 
   <app-root></app-root>
