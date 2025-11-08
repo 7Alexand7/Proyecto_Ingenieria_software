@@ -1,22 +1,23 @@
 :root {
-    --primary-color: #4361ee;
-    --secondary-color: #3a0ca3;
-    --info-color: #4cc9f0;
-    --info-dark: #4895ef;
-    --light-bg: #f8f9fa;
-    --dark-text: #212529;
-    --shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
+:    --primary-color: #4361ee;
+:    --secondary-color: #3a0ca3;
+:    --info-color: #4cc9f0;
+:    --info-dark: #4895ef;
+:    --light-bg: #f8f9fa;
+:    --dark-text: #212529;
+:    --shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+:}
+: 
+:body {
+:    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+:    min-height: 100vh;
+:    display: flex;
+:    align-items: center;
+:    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+:    margin: 0;
+:    padding: 20px;
+:}
 
-body {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 20px;
-}
 
 .container {
     animation: fadeIn 0.8s ease-out;
@@ -117,9 +118,7 @@ body {
         padding: 1.5rem;
     }
 
-    body {
-        padding: 10px;
-    }
+    /* body padding is handled globally in src/styles.css */
 
     .card-header h3 {
         font-size: 1.5rem;

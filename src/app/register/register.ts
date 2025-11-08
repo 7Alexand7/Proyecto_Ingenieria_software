@@ -3,9 +3,10 @@ import { RouterLink, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-register',
+  standalone: true,
   imports: [RouterLink],
   templateUrl: './register.html',
-  styleUrl: './register.css',
+  styleUrls: ['./register.css'],
 })
 export class Register {
 

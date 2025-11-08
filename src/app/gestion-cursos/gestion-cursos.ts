@@ -3,9 +3,10 @@ import { RouterLink, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-gestion-cursos',
+  standalone: true,
   imports: [RouterLink],
   templateUrl: './gestion-cursos.html',
-  styleUrl: './gestion-cursos.css',
+  styleUrls: ['./gestion-cursos.css'],
 })
 export class GestionCursos {
 
