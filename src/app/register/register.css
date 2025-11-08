@@ -1,4 +1,3 @@
-/* Variables de colores */
 :root {
     --primary-color: #4361ee;
     --secondary-color: #3a0ca3;
@@ -9,7 +8,6 @@
     --shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos generales */
 body {
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     min-height: 100vh;
@@ -20,12 +18,10 @@ body {
     padding: 20px;
 }
 
-/* Contenedor principal */
 .container {
     animation: fadeIn 0.8s ease-out;
 }
 
-/* Tarjeta de registro */
 .card {
     border: none;
     border-radius: 15px;
@@ -38,7 +34,6 @@ body {
     box-shadow: var(--shadow), 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* Encabezado de la tarjeta */
 .card-header {
     background: linear-gradient(135deg, var(--info-color), var(--info-dark)) !important;
     padding: 1.5rem;
@@ -50,19 +45,16 @@ body {
     letter-spacing: 1px;
 }
 
-/* Cuerpo de la tarjeta */
 .card-body {
     padding: 2rem;
 }
 
-/* Etiquetas de formulario */
 .form-label {
     font-weight: 600;
     color: var(--dark-text);
     margin-bottom: 0.5rem;
 }
 
-/* Campos de entrada */
 .form-control {
     border-radius: 10px;
     padding: 0.75rem 1rem;
@@ -75,7 +67,6 @@ body {
     box-shadow: 0 0 0 0.25rem rgba(76, 201, 240, 0.25);
 }
 
-/* Botón de registro */
 .btn-primary {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     border: none;
@@ -92,7 +83,6 @@ body {
     box-shadow: 0 5px 15px rgba(67, 97, 238, 0.4);
 }
 
-/* Pie de la tarjeta */
 .card-footer {
     background-color: transparent;
     border-top: 1px solid #e9ecef;
@@ -111,7 +101,6 @@ body {
     text-decoration: underline;
 }
 
-/* Animación de entrada */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -123,7 +112,6 @@ body {
     }
 }
 
-/* Ajustes responsivos */
 @media (max-width: 576px) {
     .card-body {
         padding: 1.5rem;
@@ -138,7 +126,6 @@ body {
     }
 }
 
-/* Efectos adicionales para mejorar la experiencia visual */
 .mb-4 {
     margin-bottom: 1.5rem !important;
 }
